@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exemplo de Tags Semânticas do HTML5</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- HEADER: Cabeçalho da página ou de uma seção -->
+  <header>
+    <h1>Guia de Tags Semânticas do HTML5</h1>
+    
+    <!-- NAV: Bloco de links de navegação principal -->
+    <nav>
+      <ul>
+        <li><a href="#artigo-principal">Artigo Principal</a></li>
+        <li><a href="#conteudo-relacionado">Conteúdo Relacionado</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+
+
+    <div class="d_whats">
+        <p class="p_whats"><strong>w</strong></p>
+    </div>
+
+
+  <!-- MAIN: Conteúdo principal e exclusivo desta página -->
+  <main>
+
+    <!-- ARTICLE: Conteúdo independente e autossuficiente (ex: post, notícia, artigo) -->
+    <article id="artigo-principal">
+        <h2>Entendendo a Semântica no HTML5</h2>
+        <!-- TIME: Representa datas, horários ou durações -->
+        <p>Publicado em: <time datetime="2026-09-23">23 de Setembro de 2026</time></p>
+      </header>
+
+      <p>O uso de tags semânticas melhora a <strong>acessibilidade</strong> e o <strong>SEO</strong> (otimização para motores de busca) da sua aplicação web.</p>
+
+      <!-- SECTION: Agrupamento temático de conteúdo -->
+      <section>
+        <h3>Principais Benefícios</h3>
+        <p>Ao utilizar tags com significado, leitoras de tela e buscadores conseguem interpretar a estrutura da página com mais precisão.</p>
+        
+        <p>Exemplo de realce com a tag <mark>mark para destacar texto</mark> e <del>texto removido</del> junto com <ins>texto inserido</ins>.</p>
+      </section>
+
+      <section>
+        <h3>Exemplo de Mídia e Figura</h3>
+        
+        <!-- FIGURE e FIGCAPTION: Conteúdo ilustrativo (imagem, gráfico, código) com legenda -->
+        <figure>
+          <img src="https://via.placeholder.com/400x200" alt="Exemplo de imagem explicativa">
+          <figcaption>Figura 1: Representação gráfica de uma estrutura semântica.</figcaption>
+        </figure>
+      </section>
+
+      <section>
+        <h3>Citação em Destaque</h3>
+        
+        <!-- BLOCKQUOTE e CITE: Citação de bloco e indicação da fonte/autor -->
+        <blockquote cite="https://www.w3.org/">
+          "A Web deve ser acessível a todos os seres humanos, independentemente de suas capacidades ou dispositivos."
+        </blockquote>
+        <p>— <cite>Tim Berners-Lee</cite></p>
+      </section>
+
+      <!-- DETAILS e SUMMARY: Conteúdo interativo colapsável (expansível) -->
+      <section>
+        <h3>Dúvidas Frequentes</h3>
+        <details>
+          <summary>Por que não usar apenas div para tudo?</summary>
+          <p>A tag <code>&lt;div&gt;</code> é genérica e não possui valor semântico. Usar apenas divs dificulta o trabalho dos motores de busca e de leitores de tela para deficientes visuais.</p>
+        </details>
+      </section>
+
+      <footer>
+        <p>Escrito por: <address><a href="mailto:autor@exemplo.com">Autor do Artigo</a></address></p>
+      </footer>
+    </article>
+
+    <!-- ASIDE: Conteúdo secundário ou relacionado ao redor (barra lateral, avisos, links úteis) -->
+    <aside id="conteudo-relacionado">
+      <h3>Conteúdo Relacionado</h3>
+      <p>Você também pode gostar de ler sobre:</p>
+      <ul>
+        <li>Acessibilidade Web (WCAG)</li>
+        <li>Boas Práticas de SEO</li>
+      </ul>
+
+      <!-- SEARCH: Representa uma seção destinada a busca/pesquisa -->
+      <search>
+        <form action="/buscar" method="get">
+          <label for="query">Buscar no site:</label>
+          <input type="search" id="query" name="q">
+          <button type="submit">Pesquisar</button>
+        </form>
+      </search>
+    </aside>
+
+  </main>
+
+
+  <section>
+    <h2><em>Título 2</em></h2>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis, asperiores porro laborum maxime, quas atque iusto obcaecati ad fuga illo animi, non necessitatibus. Accusantium, sunt iusto ad laborum repellat non? Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam odio excepturi, veniam quos voluptas aperiam! Nostrum dolore qui ipsam eveniet numquam sequi vero, maxime eum iusto? Eum laudantium ipsam reprehenderit? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam ullam reiciendis odit expedita itaque, in inventore doloremque delectus ad quo provident. Similique aut odit minima, provident et voluptas ut quis.
+    </p>
+  </section><section>
+    <h2>Título 2</h2>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis, asperiores porro laborum maxime, quas atque iusto obcaecati ad fuga illo animi, non necessitatibus. Accusantium, sunt iusto ad laborum repellat non? Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam odio excepturi, veniam quos voluptas aperiam! Nostrum dolore qui ipsam eveniet numquam sequi vero, maxime eum iusto? Eum laudantium ipsam reprehenderit? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam ullam reiciendis odit expedita itaque, in inventore doloremque delectus ad quo provident. Similique aut odit minima, provident et voluptas ut quis.
+    </p>
+  </section>
+  <section>
+    <h2>Título 2</h2>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis, asperiores porro laborum maxime, quas atque iusto obcaecati ad fuga illo animi, non necessitatibus. Accusantium, sunt iusto ad laborum repellat non? Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam odio excepturi, veniam quos voluptas aperiam! Nostrum dolore qui ipsam eveniet numquam sequi vero, maxime eum iusto? Eum laudantium ipsam reprehenderit? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam ullam reiciendis odit expedita itaque, in inventore doloremque delectus ad quo provident. Similique aut odit minima, provident et voluptas ut quis.
+    </p>
+  </section>
+  <section>
+    <h2>Título 2</h2>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis, asperiores porro laborum maxime, quas atque iusto obcaecati ad fuga illo animi, non necessitatibus. Accusantium, sunt iusto ad laborum repellat non? Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam odio excepturi, veniam quos voluptas aperiam! Nostrum dolore qui ipsam eveniet numquam sequi vero, maxime eum iusto? Eum laudantium ipsam reprehenderit? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam ullam reiciendis odit expedita itaque, in inventore doloremque delectus ad quo provident. Similique aut odit minima, provident et voluptas ut quis.
+    </p>
+  </section>
+  <section>
+    <h2>Título 2</h2>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis, asperiores porro laborum maxime, quas atque iusto obcaecati ad fuga illo animi, non necessitatibus. Accusantium, sunt iusto ad laborum repellat non? Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam odio excepturi, veniam quos voluptas aperiam! Nostrum dolore qui ipsam eveniet numquam sequi vero, maxime eum iusto? Eum laudantium ipsam reprehenderit? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam ullam reiciendis odit expedita itaque, in inventore doloremque delectus ad quo provident. Similique aut odit minima, provident et voluptas ut quis.
+    </p>
+  </section>
+  <section>
+    <h2>Título 2</h2>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis, asperiores porro laborum maxime, quas atque iusto obcaecati ad fuga illo animi, non necessitatibus. Accusantium, sunt iusto ad laborum repellat non? Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam odio excepturi, veniam quos voluptas aperiam! Nostrum dolore qui ipsam eveniet numquam sequi vero, maxime eum iusto? Eum laudantium ipsam reprehenderit? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam ullam reiciendis odit expedita itaque, in inventore doloremque delectus ad quo provident. Similique aut odit minima, provident et voluptas ut quis.
+    </p>
+  </section>
+  <section>
+    <h2>Título 2</h2>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis, asperiores porro laborum maxime, quas atque iusto obcaecati ad fuga illo animi, non necessitatibus. Accusantium, sunt iusto ad laborum repellat non? Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam odio excepturi, veniam quos voluptas aperiam! Nostrum dolore qui ipsam eveniet numquam sequi vero, maxime eum iusto? Eum laudantium ipsam reprehenderit? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam ullam reiciendis odit expedita itaque, in inventore doloremque delectus ad quo provident. Similique aut odit minima, provident et voluptas ut quis.
+    </p>
+  </section>
+  <section>
+    <h2>Título 2</h2>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis, asperiores porro laborum maxime, quas atque iusto obcaecati ad fuga illo animi, non necessitatibus. Accusantium, sunt iusto ad laborum repellat non? Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam odio excepturi, veniam quos voluptas aperiam! Nostrum dolore qui ipsam eveniet numquam sequi vero, maxime eum iusto? Eum laudantium ipsam reprehenderit? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam ullam reiciendis odit expedita itaque, in inventore doloremque delectus ad quo provident. Similique aut odit minima, provident et voluptas ut quis.
+    </p>
+  </section>
+  <section>
+    <h2>Título 2</h2>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis, asperiores porro laborum maxime, quas atque iusto obcaecati ad fuga illo animi, non necessitatibus. Accusantium, sunt iusto ad laborum repellat non? Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam odio excepturi, veniam quos voluptas aperiam! Nostrum dolore qui ipsam eveniet numquam sequi vero, maxime eum iusto? Eum laudantium ipsam reprehenderit? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam ullam reiciendis odit expedita itaque, in inventore doloremque delectus ad quo provident. Similique aut odit minima, provident et voluptas ut quis.
+    </p>
+  </section>
+  <section>
+    <h2>Título 2</h2>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis, asperiores porro laborum maxime, quas atque iusto obcaecati ad fuga illo animi, non necessitatibus. Accusantium, sunt iusto ad laborum repellat non? Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam odio excepturi, veniam quos voluptas aperiam! Nostrum dolore qui ipsam eveniet numquam sequi vero, maxime eum iusto? Eum laudantium ipsam reprehenderit? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam ullam reiciendis odit expedita itaque, in inventore doloremque delectus ad quo provident. Similique aut odit minima, provident et voluptas ut quis.
+    </p>
+  </section>
+  <section>
+    <h2>Título 2</h2>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis, asperiores porro laborum maxime, quas atque iusto obcaecati ad fuga illo animi, non necessitatibus. Accusantium, sunt iusto ad laborum repellat non? Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam odio excepturi, veniam quos voluptas aperiam! Nostrum dolore qui ipsam eveniet numquam sequi vero, maxime eum iusto? Eum laudantium ipsam reprehenderit? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam ullam reiciendis odit expedita itaque, in inventore doloremque delectus ad quo provident. Similique aut odit minima, provident et voluptas ut quis.
+    </p>
+  </section>
+  <section>
+    <h2>Título 2</h2>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis, asperiores porro laborum maxime, quas atque iusto obcaecati ad fuga illo animi, non necessitatibus. Accusantium, sunt iusto ad laborum repellat non? Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam odio excepturi, veniam quos voluptas aperiam! Nostrum dolore qui ipsam eveniet numquam sequi vero, maxime eum iusto? Eum laudantium ipsam reprehenderit? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam ullam reiciendis odit expedita itaque, in inventore doloremque delectus ad quo provident. Similique aut odit minima, provident et voluptas ut quis.
+    </p>
+  </section>
+  <section>
+    <h2>Título 2</h2>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis, asperiores porro laborum maxime, quas atque iusto obcaecati ad fuga illo animi, non necessitatibus. Accusantium, sunt iusto ad laborum repellat non? Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam odio excepturi, veniam quos voluptas aperiam! Nostrum dolore qui ipsam eveniet numquam sequi vero, maxime eum iusto? Eum laudantium ipsam reprehenderit? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam ullam reiciendis odit expedita itaque, in inventore doloremque delectus ad quo provident. Similique aut odit minima, provident et voluptas ut quis.
+    </p>
+  </section>
+  <section>
+    <h2>Título 2</h2>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis, asperiores porro laborum maxime, quas atque iusto obcaecati ad fuga illo animi, non necessitatibus. Accusantium, sunt iusto ad laborum repellat non? Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam odio excepturi, veniam quos voluptas aperiam! Nostrum dolore qui ipsam eveniet numquam sequi vero, maxime eum iusto? Eum laudantium ipsam reprehenderit? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam ullam reiciendis odit expedita itaque, in inventore doloremque delectus ad quo provident. Similique aut odit minima, provident et voluptas ut quis.
+    </p>
+  </section>
+  <section>
+    <h2>Título 2</h2>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis, asperiores porro laborum maxime, quas atque iusto obcaecati ad fuga illo animi, non necessitatibus. Accusantium, sunt iusto ad laborum repellat non? Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam odio excepturi, veniam quos voluptas aperiam! Nostrum dolore qui ipsam eveniet numquam sequi vero, maxime eum iusto? Eum laudantium ipsam reprehenderit? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam ullam reiciendis odit expedita itaque, in inventore doloremque delectus ad quo provident. Similique aut odit minima, provident et voluptas ut quis.
+    </p>
+  </section>
+
+  <!-- FOOTER: Rodapé da página ou de uma seção -->
+  <footer>
+    <p>&copy; 2026 Guia Semântico HTML. Todos os direitos reservados.</p>
+    <address>
+      Contato: <a href="mailto:contato@exemplo.com">contato@exemplo.com</a><br>
+      São Paulo - SP, Brasil
+    </address>
+  </footer>
+
+</body>
+</html>
